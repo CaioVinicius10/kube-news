@@ -32,7 +32,7 @@ jobs:
           context: ./src 
           push: true
           tags:
-            caio10/kubenews:v1
+            caio10/kubenews:latest
             caio10/kubenews:${{github.run_number}}
   
   CD:
